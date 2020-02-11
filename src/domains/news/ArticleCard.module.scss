@@ -1,91 +1,102 @@
 @import 'globalStyles/App.scss';
 
-.cardContainer {
-  display: flex;
-  align-items: center;
-  height: 400px;
+.cardContainerFullWidth {
   border-bottom: 3px solid lightgray;
-  @include md {
+  display: flex;
+  justify-content: center;
+  height: 400px;
+  @include sm {
     height: 300px;
   }
   @include lg {
     height: 500px;
   }
-  .content {
+  .cardContainerDecreasedWidth {
+    width: 90vw;
     display: flex;
     flex-direction: column;
-
-    @include sm {
-      flex-direction: row;
-      align-items: flex-start;
+    justify-content: center;
+    @include lg {
+      width: 80vw;
     }
-
-    .textContainer {
+    @include xl {
+      width: 70vw;
+    }
+    .content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
       @include sm {
-        margin-left: 30px;
-        text-align: left;
+        flex-direction: row;
+        align-items: flex-start;
       }
-      p {
-        margin-block-start: 0;
-      }
-      h2 {
-        color: $primary-color;
-        font-size: 1.2em;
-        @include md {
-          font-size: 1.5em;
+      .textContainer {
+        text-align: center;
+        @include sm {
+          margin-left: 30px;
+          text-align: left;
         }
-        @include lg {
-          font-size: 2em;
+        p {
+          margin-block-start: 0;
         }
-      }
-      h3 {
-        font-size: 1em;
-        font-weight: 400;
-        @include md {
+        h2 {
+          color: $primary-color;
           font-size: 1.2em;
-        }
-      }
-
-      a {
-        text-decoration: none;
-        font-size: 1em;
-        font-weight: 500;
-        color: black;
-        @include md {
-          font-size: 1.2em;
-        }
-        .iconTextLine {
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          @include sm {
-            justify-content: left;
+          @include md {
+            font-size: 1.4em;
           }
-          .icon {
-            font-size: 25px;
-
-            color: $primary-color;
-            @include md {
-              font-size: 40px;
+          @include lg {
+            font-size: 1.6em;
+          }
+        }
+        h3 {
+          font-size: 1em;
+          font-weight: 400;
+          @include md {
+            font-size: 1.2em;
+          }
+        }
+        a {
+          text-decoration: none;
+          font-size: 1em;
+          font-weight: 500;
+          color: black;
+          @include md {
+            font-size: 1.2em;
+          }
+          .iconTextLine {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            @include sm {
+              justify-content: left;
+            }
+            .icon {
+              font-size: 25px;
+              margin-top: 5px;
+              color: $primary-color;
+              @include md {
+                font-size: 40px;
+              }
             }
           }
         }
       }
     }
-  }
-  .image {
-    width: auto;
-    height: auto;
-    max-height: 300px;
-    max-width: 300px;
-    border: 4px solid lightgrey;
-    @include lg {
-      max-height: 400px;
-      max-width: 400px;
-    }
-    @include xl {
-      max-height: 500px;
-      max-width: 500px;
+    .image {
+      width: auto;
+      height: auto;
+      max-height: 300px;
+      max-width: 300px;
+      border: 4px solid lightgrey;
+      @include lg {
+        max-height: 400px;
+        max-width: 400px;
+      }
+      @include xl {
+        max-height: 500px;
+        max-width: 500px;
+      }
     }
   }
 }
