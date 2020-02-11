@@ -1,3 +1,11 @@
+Important Information before booting: 
+
+I used json server to fake responses for the News Dashboard. 
+
+Please run "yarn mock:api" before running "yarn start". 
+
+
+############################
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
