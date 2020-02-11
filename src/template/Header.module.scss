@@ -2,7 +2,7 @@
 
 .header {
   background-color: $header-color;
-  height: 23vh;
+  height: 220px;
   padding-top: 20px;
   @include sm {
     position: relative;
@@ -40,8 +40,8 @@
       }
     }
     .selectedTab {
-      background-color: white;
       margin-bottom: 5px;
+      background-color: white;
       color: black;
       @include sm {
         padding-top: 25px;
