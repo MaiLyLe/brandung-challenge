@@ -1,0 +1,51 @@
+@import 'globalStyles/App.scss';
+
+.header {
+  background-color: $header-color;
+  height: 23vh;
+  padding-top: 20px;
+  @include sm {
+    position: relative;
+    height: 15vh;
+  }
+  .tabContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    @include sm {
+      display: block;
+      position: absolute;
+      bottom: -5px;
+      left: 20px;
+    }
+    .tab {
+      border: none;
+      outline: none;
+      font-size: 1.2em;
+      padding: 20px;
+      color: white;
+      width: 85vw;
+      background-color: #6ab1eb;
+      @include sm {
+        min-width: 170px;
+        width: 10vw;
+        margin-left: 5px;
+      }
+    }
+    .unselectedTab {
+      margin-bottom: 5px;
+      @include sm {
+        border-bottom: 5px solid $header-color;
+        padding: 15px;
+      }
+    }
+    .selectedTab {
+      background-color: white;
+      margin-bottom: 5px;
+      color: black;
+      @include sm {
+        padding-top: 25px;
+      }
+    }
+  }
+}

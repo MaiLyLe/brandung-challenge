@@ -1,0 +1,49 @@
+{
+  "articles": [
+    {
+      "id": 1,
+      "title": "Trump räumt Fehler ein, gibt sich Sanders geschlagen",
+      "subtitle": "Das wird nicht passieren. ",
+      "date": "03-02-2020",
+      "image": "https://imgix.bustle.com/rehost/2016/9/13/e139c94b-3175-42fa-ab5f-374292b1e3aa.jpg?w=970&h=546&fit=crop&crop=faces&auto=format&q=70"
+    },
+    {
+      "id": 2,
+      "title": "Höcke steigt aus Afd aus und bekennt sich zum Buddhismus",
+      "subtitle": "Weniger Hass, mehr Yoga.",
+      "date": "02-02-2020",
+      "image": "https://apps-cloud.n-tv.de/img/21356904-1572240256000/16-9/750/126037581.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Corona Biermarke ändert Brandname zu Colona wegen Virus",
+      "date": "01-02-2020",
+      "text": "Auch wenn das hier alles Fake News sind, stimmen die meisten Leute der Aussage zu, dass die Realität manchmal verrückter ist als jede Fiktion.",
+      "image": "https://www.rnd.de/resizer/tmhc9VBguuOolVrMoafAR4ITMo0=/1050x590/filters:format(webp)/arc-anglerfish-eu-central-1-prod-madsack.s3.amazonaws.com/public/S3ZM5XJHABGQTA7VOQWNAPUEUM.jpg"
+    }
+  ],
+  "article1": {
+    "id": 1,
+    "title": "Trump räumt Fehler ein, gibt sich Sanders geschlagen",
+    "subtitle": "Das wird nicht passieren. ",
+    "text": "Das wird nicht passieren. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+    "date": "03-02-2020",
+    "image": "https://imgix.bustle.com/rehost/2016/9/13/e139c94b-3175-42fa-ab5f-374292b1e3aa.jpg?w=970&h=546&fit=crop&crop=faces&auto=format&q=70"
+  },
+
+  "article2": {
+    "id": 2,
+    "title": "Höcke steigt aus Afd aus und bekennt sich zum Buddhismus",
+    "subtitle": "Weniger Hass, mehr Yoga.",
+    "date": "02-02-2020",
+    "text": "Das wird nicht auch passieren. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+    "image": "https://apps-cloud.n-tv.de/img/21356904-1572240256000/16-9/750/126037581.jpg"
+  },
+  "article3": {
+    "id": 3,
+    "title": "Corona Biermarke ändert Brandname zu Colona wegen Virus",
+    "date": "01-02-2020",
+    "text": "Auch wenn das hier alles Fake News sind, stimmen die meisten Leute der Aussage zu, dass die Realität manchmal verrückter ist als jede Fiktion.",
+    "image": "https://www.rnd.de/resizer/tmhc9VBguuOolVrMoafAR4ITMo0=/1050x590/filters:format(webp)/arc-anglerfish-eu-central-1-prod-madsack.s3.amazonaws.com/public/S3ZM5XJHABGQTA7VOQWNAPUEUM.jpg"
+  }
+}
